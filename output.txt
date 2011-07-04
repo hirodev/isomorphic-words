@@ -1,0 +1,10 @@
+$ ./isomorphic foo cpp
+Yes, foo and cpp are isomorphic.
+$ ./isomorphic cpp foo
+Yes, cpp and foo are isomorphic.
+$ ./isomorphic foot cppp
+No, foot and cppp are not isomorphic.
+$ ./isomorphic fooo cppt
+No, fooo and cppt are not isomorphic.
+$ ./isomorphic foo hello
+No, foo and hello are not isomorphic.

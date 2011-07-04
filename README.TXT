@@ -1,0 +1,1 @@
+This is a simple algorithmic problem. I could have tackled this in numerous ways. I decided on a fast, easy implementation. This program assumes ascii characters are passed in. I could use an STL map, otherwise.

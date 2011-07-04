@@ -1,0 +1,9 @@
+Isomorphic Words
+
+A pair of words are isomorphic if there exists a mapping between each word such that the inverse mapping returns the original word.
+
+For example, "foo" transforms to "cpp" with the mapping { f => c, o => p }. The inverse mapping, { c => f, p => o }, will transform "cpp" back to "foo". This pair is isomorphic.
+
+As another example, "foot" transforms to "cppp" with the mapping { f => c, o => p, t => p}. However, the inverse mapping is ambiguous and so "cppp" cannot be transformed back to "foot". This pair is not isomorphic.
+
+Write a program that takes a pair of words as input. The program should then print out whether or not the words are isomorphic.
